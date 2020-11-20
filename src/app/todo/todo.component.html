@@ -18,7 +18,7 @@
     </div>      
 </div>
 <!-- write logic to display below text if todoList is empty -->
-<p class="empty-p">Todo tasks List is empty!!!</p>   
+<p *ngIf="clr">Todo tasks List is empty!!!</p>   
     <!-- todo table should be displayed if todoList is not empty, 
         write logic to structural directive *ngIf -->
 <table *ngIf="!clr">
